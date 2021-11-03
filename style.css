@@ -1,0 +1,28 @@
+@font-face {
+    font-family: pricedown;
+    src: url(fuentes/pricedown.otf);
+}
+@font-face {
+    font-family: thehound;
+    src: url(fuentes/The\ Hound.ttf);
+}
+
+h1
+{
+    background-image: url(imagenes/rosaceleste.jpg);
+    background-color: rgb(68, 0, 255);
+    font-family: thehound;
+        -webkit-text-stroke: 0.2px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+body
+{
+    background-image: url(imagenes/mesa.jpg);
+    font-size: 20px;
+}
+p{
+    background-size: 50px;
+    background-color: rgb(157, 252, 255);
+}
